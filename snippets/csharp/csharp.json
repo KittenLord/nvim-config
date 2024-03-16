@@ -1,0 +1,12 @@
+{
+    "Unity debug statement" : {
+        "prefix":"udb",
+        "body": [ "UnityEngine.Debug.Log($\"$0\");" ],
+        "description":"Unity debug statement"
+    },
+    "Debug" : {
+        "prefix":"dbg",
+        "body": [ "System.Console.WriteLine($\"$0\");" ],
+        "description":"C# debug statement"
+    }
+}
