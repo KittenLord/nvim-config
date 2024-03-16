@@ -3,7 +3,7 @@ return {
     config = function ()
         vim.keymap.set("n", "<leader>gh", vim.cmd.Git)
         vim.keymap.set("n", "<leader>gb", function() 
-            local branch = vim.fn.input("Branch: ", "main")
+            local branch = vim.fn.input("Branch: ")
             vim.cmd.Git("branch " .. branch)
             vim.cmd.Git("checkout " .. branch)
         end)
@@ -38,9 +38,5 @@ return {
                 -- vim.keymap.set("n", "<leader>t", ":Git push -u origin ", opts);
             end,
         })
-
-
-        vim.keymap.set("n", "gu", "<cmd>diffget //2<CR>")
-        vim.keymap.set("n", "gh", "<cmd>diffget //3<CR>")
     end
 }
