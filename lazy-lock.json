@@ -28,6 +28,7 @@
   "plenary.nvim": { "branch": "master", "commit": "f7adfc4b3f4f91aab6caebf42b3682945fbc35be" },
   "poimandres.nvim": { "branch": "main", "commit": "77635055e686ae3c8a519198006ff0b43b6b2eae" },
   "quick-scope": { "branch": "master", "commit": "256d81e391a22eeb53791ff62ce65f870418fa71" },
+  "runner.nvim": { "branch": "main", "commit": "8358ab780793bc2473ad8117ee487f1a468305bf" },
   "telescope.nvim": { "branch": "master", "commit": "b323abeb4baf9e4851c3af1961e770ce76c657c7" },
   "todo-comments.nvim": { "branch": "main", "commit": "833d8dd8b07eeda37a09e99460f72a02616935cb" },
   "trouble.nvim": { "branch": "main", "commit": "f1168feada93c0154ede4d1fe9183bf69bac54ea" },
