@@ -23,10 +23,7 @@ return {
                 local opts = {buffer = bufnr, remap = false}
 
                 vim.keymap.set("n", "A", function() vim.cmd.Git("add .") end, opts)
-                vim.keymap.set("n", "R", function()
-                    vim.cmd.q()
-                    vim.cmd.Git()
-                end, opts)
+                vim.keymap.set("n", "R", "<cmd>q<CR><cmd>Git<CR>", opts)
 
                 vim.keymap.set("n", "<leader>P", function()
                     vim.cmd.Git('push')
