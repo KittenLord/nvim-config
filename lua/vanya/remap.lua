@@ -2,6 +2,7 @@ vim.g.mapleader = " "
 -- vim.keymap.set("n", "<leader>ep", vim.cmd.Ex)
 vim.keymap.set("n", "<leader>nt", vim.cmd.NvimTreeOpen)
 vim.keymap.set("n", "<leader>qs", vim.cmd.QuickScopeToggle)
+vim.keymap.set("n", "<leader>/", vim.cmd.noh)
 
 vim.keymap.set({ "n", "v" }, "<leader>y", "\"+y")
 vim.keymap.set({ "n", "v" }, "<leader>p", "\"+p")
