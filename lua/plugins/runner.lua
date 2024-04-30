@@ -10,6 +10,7 @@ return {
 
         runner.setup()
         runner.set_handler("cs", shell("dotnet run"), false)
+        runner.set_handler("py", shell("python main.py"), false)
 
         vim.keymap.set("n", "<leader>r", vim.cmd.Run)
     end
