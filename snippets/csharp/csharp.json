@@ -8,5 +8,15 @@
         "prefix":"dbg",
         "body": [ "System.Console.WriteLine($\"{$0}\");" ],
         "description":"C# debug statement"
+    },
+    "ToString" : {
+        "prefix":"str",
+        "body": [ "public override string ToString() { return $0; }" ],
+        "description":"ToString override"
+    },
+    "Exception" : {
+        "prefix":"exp",
+        "body": [ "throw new System.Exception(\"{$0}\");" ],
+        "description":"ToString override"
     }
 }
