@@ -4,7 +4,7 @@ return {
     dependencies = { "nvim-tree/nvim-web-devicons" },
     config = function ()
         require("oil").setup({
-            default_file_explorer = false
+            default_file_explorer = true
         })
 
         vim.keymap.set("n", "<leader>ep", "<cmd>Oil<CR>")
