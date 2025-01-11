@@ -23,5 +23,9 @@ vim.g.NERDTreeHijackNetrw = 0
 
 vim.api.nvim_create_autocmd("FileType", {
   callback = function(ev) vim.bo[ev.buf].commentstring = "// %s" end,
+  pattern = "cs",
+})
+vim.api.nvim_create_autocmd("FileType", {
+  callback = function(ev) vim.bo[ev.buf].commentstring = "// %s" end,
   pattern = "c",
 })
